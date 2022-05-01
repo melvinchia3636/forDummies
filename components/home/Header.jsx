@@ -3,7 +3,7 @@ import React from "react";
 export default function Header({ header }) {
   return (
     <div
-      className="mt-16 flex flex-col px-20 justify-center w-full h-[28rem] overflow-hidden bg-cover bg-center bg-black bg-blend-darken bg-opacity-50"
+      className="mt-16 flex flex-col px-20 justify-center w-full h-[32rem] overflow-hidden bg-cover bg-center bg-black bg-blend-darken bg-opacity-50"
       style={{
         backgroundImage: `url('${header.image}')`,
       }}

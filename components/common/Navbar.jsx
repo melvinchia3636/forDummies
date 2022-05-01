@@ -1,5 +1,7 @@
 import { Icon } from "@iconify/react";
 import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import Lottie from "react-lottie";
 import loading from "../../assets/loading.json";
@@ -113,6 +115,7 @@ const BooksExplorer = ({
   const [data, setData] = useState(null);
   const [currentData, setCurrentData] = useState();
   const [isLoading, setIsLoading] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     fetch("https://cors-anywhere.thecodeblog.net/dummies-api.dummies.com/v2/categories/0/tree/books")
@@ -137,8 +140,10 @@ const BooksExplorer = ({
       target.subCategories = res.categories
       setBreadcrumbs(res.breadcrumbs)
       setData(newData)
+      setCurrentLevel([...currentLevel, id])
+    } else {
+      router.push(`/categories/books/${target?.title.toLowerCase().replace(/[^A-Za-z0-9\s]/g, "").replace(/\s+/g, '-')}-${target?.categoryId}`)
     }
-    setCurrentLevel([...currentLevel, id])
     setIsLoading(false)
   }
 
@@ -170,9 +175,19 @@ const BooksExplorer = ({
         </>
       ))}
     </div>}
-    <h2 className="text-3xl font-bold relative after:w-16 px-4 after:border-b-4 after:border-yellow-400 after:absolute after:-bottom-2 after:left-4 after:rounded-full">
-      {currentData?.title.replace('Level 0 Category', "Book Categories")}
-    </h2>
+    <div className="w-full flex items-center justify-between px-4">
+      <h2 className="text-3xl font-bold relative after:w-16 after:border-b-4 after:border-yellow-400 after:absolute after:-bottom-2 after:left-0 after:rounded-full">
+        {currentData?.title.replace('Level 0 Category', "Book Categories")}
+      </h2>
+      {currentLevel.length > 0 && <Link passHref href={`/categories/books/${currentData?.title.toLowerCase().replace(/[^A-Za-z0-9\s]/g, "").replace(/\s+/g, '-')}-${currentData?.categoryId}`}>
+        <div className="flex items-center gap-1 text-xl mt-6 font-medium cursor-pointer">Explore all
+          <Icon
+            icon="uil:arrow-right"
+            className="w-6 h-6"
+          />
+        </div>
+      </Link>}
+    </div>
     <div className="mt-12 divide-y">
       {data && currentData && ((currentData.subCategories || currentData.categories)?.map(e => (
         <button onClick={() => gotoSubCategories(e.categoryId)} className="py-4 text-lg w-full flex items-center justify-between hover:bg-stone-50 px-4 hover:rounded-md" key={e.title}>
@@ -181,23 +196,25 @@ const BooksExplorer = ({
         </button>
       )))}
     </div>
-    {isLoading && <div className="absolute h-[36rem] w-full bg-black bg-opacity-[1%] top-0 left-0">
-      <div className="bg-white rounded-lg shadow-xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-        <Lottie options={{
-          loop: true,
-          autoplay: true,
-          animationData: loading,
-          rendererSettings: {
-            preserveAspectRatio: 'xMidYMid slice'
-          }
-        }}
-          height={80}
-          width={80}
-          isStopped={false}
-          isPaused={false} />
+    {
+      isLoading && <div className="absolute h-[36rem] w-full bg-black bg-opacity-[1%] top-0 left-0">
+        <div className="bg-white rounded-lg shadow-xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          <Lottie options={{
+            loop: true,
+            autoplay: true,
+            animationData: loading,
+            rendererSettings: {
+              preserveAspectRatio: 'xMidYMid slice'
+            }
+          }}
+            height={80}
+            width={80}
+            isStopped={false}
+            isPaused={false} />
+        </div>
       </div>
-    </div>}
-  </div>
+    }
+  </div >
 }
 
 export default function Navbar() {
@@ -219,6 +236,13 @@ export default function Navbar() {
       />
       <div className="flex gap-16 font-bold">
         <button onClick={() => {
+          if (!articlesExplorerOpen) {
+            setBooksExplorerOpen(false);
+            setTimeout(() => {
+              setBooksExplorerCurrentLevel([]);
+              setBooksExplorerBreadcrumbs([]);
+            }, 100)
+          }
           setArticlesExplorerOpen(!articlesExplorerOpen);
           setTimeout(() => {
             setArticleExplorerCurrentLevel([]);
@@ -232,6 +256,13 @@ export default function Navbar() {
           />
         </button>
         <button onClick={() => {
+          if (!booksExplorerOpen) {
+            setArticlesExplorerOpen(false);
+            setTimeout(() => {
+              setArticleExplorerCurrentLevel([]);
+              setArticleExplorerBreadcrumbs([]);
+            }, 100)
+          }
           setBooksExplorerOpen(!booksExplorerOpen);
           setTimeout(() => {
             setBooksExplorerCurrentLevel([]);

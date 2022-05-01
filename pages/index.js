@@ -6,6 +6,7 @@ import Header from "../components/home/Header";
 import FeaturedCollections from "../components/home/Collections";
 import Categories from "../components/home/Categories";
 import Navbar from "../components/common/Navbar";
+import Footer from "../components/common/Footer";
 
 export async function getStaticProps() {
   const raw = await fetch(
@@ -55,6 +56,7 @@ export default function Home({ collections, categories, header }) {
       <Header header={header} />
       <FeaturedCollections collections={collections} />
       <Categories categories={categories} />
+      <Footer />
     </div>
   );
 }
