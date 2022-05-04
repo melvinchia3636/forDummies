@@ -161,7 +161,7 @@ const BooksExplorer = ({
 
   return <div ref={booksExplorer} className={`absolute z-[9999] bottom-0 left-0 translate-y-full transition-all shadow-md ${isLoading ? "overflow-hidden" : "overflow-y-auto overflow-x-hidden"} ${booksExplorerOpen ? "h-[36rem] py-20" : "h-0 py-0"} w-full bg-white px-20`}>
     {breadcrumbs.length > 0 && <div className="flex ml-4 gap-1 mb-2 font-medium">
-      <button className={`font-medium ${!currentLevel.length ? "font-semibold text-yellow-400 underline" : ""}`} onClick={() => {
+      <button className={`font-medium ${!currentLevel.length ? "font-semibold text-yellow-400" : "underline"}`} onClick={() => {
         setCurrentLevel([]);
         setBreadcrumbs([]);
       }}>All</button> /
@@ -170,7 +170,7 @@ const BooksExplorer = ({
           <button onClick={() => {
             setCurrentLevel(currentLevel.slice(0, currentLevel.indexOf(e.categoryId) + 1))
             setBreadcrumbs(breadcrumbs.slice(0, i + 1))
-          }} className={`font-medium ${e.categoryId === currentLevel[currentLevel.length - 1] ? "font-semibold text-yellow-400 underline" : ""}`}>{e.name}</button>
+          }} className={`font-medium ${e.categoryId === currentLevel[currentLevel.length - 1] ? "font-semibold text-yellow-400" : "underline"}`}>{e.name}</button>
           /
         </>
       ))}
@@ -226,11 +226,25 @@ export default function Navbar() {
   const [booksExplorerCurrentLevel, setBooksExplorerCurrentLevel] = useState([]);
   const [booksExplorerBreadcrumbs, setBooksExplorerBreadcrumbs] = useState([]);
 
+  const router = useRouter();
+
+  useEffect(() => {
+    setArticlesExplorerOpen(false);
+    setBooksExplorerOpen(false);
+
+    setTimeout(() => {
+      setArticleExplorerCurrentLevel([]);
+      setArticleExplorerBreadcrumbs([]);
+      setBooksExplorerCurrentLevel([]);
+      setBooksExplorerBreadcrumbs([]);
+    }, 100)
+  }, [router])
+
   return (
-    <nav className="bg-yellow-400 fixed top-0 left-0 text-stone-900 z-[9999] shadow-md w-full p-5 px-7 flex items-center justify-between">
+    <nav className="bg-yellow-400 fixed top-0 left-0 z-[9999] shadow-md w-full p-5 px-7 flex items-center justify-between">
       <Image
-        width="128"
-        height="32"
+        width="130"
+        height="36"
         alt=""
         src="https://www.dummies.com/img/logo.f7c39ad9.svg"
       />
@@ -252,7 +266,7 @@ export default function Navbar() {
           Articles
           <Icon
             icon="uil:angle-down"
-            className={`w-5 h-5 stroke-1 stroke-stone-900 transition-all ${!articlesExplorerOpen ? "rotate-0" : "rotate-180"}`}
+            className={`w-5 h-5 stroke-1 stroke-stone-800 transition-all ${!articlesExplorerOpen ? "rotate-0" : "rotate-180"}`}
           />
         </button>
         <button onClick={() => {
@@ -272,14 +286,14 @@ export default function Navbar() {
           Books
           <Icon
             icon="uil:angle-down"
-            className={`w-5 h-5 stroke-1 stroke-stone-900 transition-all ${!booksExplorerOpen ? "rotate-0" : "rotate-180"}`}
+            className={`w-5 h-5 stroke-1 stroke-stone-800 transition-all ${!booksExplorerOpen ? "rotate-0" : "rotate-180"}`}
           />
         </button>
         <a className="flex items-center gap-0.5">
           Collections
           <Icon
             icon="uil:angle-down"
-            className="w-5 h-5 stroke-1 stroke-stone-900"
+            className="w-5 h-5 stroke-1 stroke-stone-800"
           />
         </a>
         <a>Custom Solutions</a>
@@ -287,7 +301,7 @@ export default function Navbar() {
       <button>
         <Icon
           icon="uil:search"
-          className="w-6 h-6 stroke-[0.6px] stroke-stone-900"
+          className="w-6 h-6 stroke-[0.6px] stroke-stone-800"
         />
       </button>
       <ArticleExplorer

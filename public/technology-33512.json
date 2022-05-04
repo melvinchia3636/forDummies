@@ -1,0 +1,1415 @@
+{
+  "appState": {
+    "pageLoadApiCallsStatus": true
+  },
+  "categoryState": {
+    "relatedCategories": {
+      "headers": {
+        "timestamp": "2022-05-02T18:31:10+00:00"
+      },
+      "categoryId": 33512,
+      "data": {
+        "title": "Technology",
+        "slug": "technology",
+        "image": {
+          "src": "https://www.dummies.com/wp-content/uploads/technology-category.jpg",
+          "width": 643,
+          "height": 1286
+        },
+        "breadcrumbs": [
+          {
+            "name": "Technology",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33512"
+            },
+            "slug": "technology",
+            "categoryId": 33512
+          }
+        ],
+        "parentCategory": {
+          "categoryId": 0,
+          "title": null,
+          "slug": null,
+          "_links": null
+        },
+        "childCategories": [
+          {
+            "categoryId": 33513,
+            "title": "Computers",
+            "slug": "computers",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33513"
+            },
+            "image": {
+              "src": "/img/background-image-2.fabfbd5c.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33537,
+            "title": "Cybersecurity",
+            "slug": "cybersecurity",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33537"
+            },
+            "image": {
+              "src": "/img/background-image-1.daf74cf0.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33538,
+            "title": "Digital Audio & Radio",
+            "slug": "digital-audio-radio",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33538"
+            },
+            "image": {
+              "src": "/img/background-image-2.fabfbd5c.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33543,
+            "title": "Electronics",
+            "slug": "electronics",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33543"
+            },
+            "image": {
+              "src": "/img/background-image-1.daf74cf0.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33572,
+            "title": "Information Technology",
+            "slug": "information-technology",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33572"
+            },
+            "image": {
+              "src": "/img/background-image-2.fabfbd5c.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33587,
+            "title": "Internet Basics",
+            "slug": "internet-basics",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33587"
+            },
+            "image": {
+              "src": "/img/background-image-1.daf74cf0.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33588,
+            "title": "Notable Websites",
+            "slug": "notable-websites",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33588"
+            },
+            "image": {
+              "src": "/img/background-image-2.fabfbd5c.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33592,
+            "title": "Programming & Web Design",
+            "slug": "programming-web-design",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33592"
+            },
+            "image": {
+              "src": "/img/background-image-1.daf74cf0.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33611,
+            "title": "Social Media",
+            "slug": "social-media",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33611"
+            },
+            "image": {
+              "src": "/img/background-image-2.fabfbd5c.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33618,
+            "title": "Software",
+            "slug": "software",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33618"
+            },
+            "image": {
+              "src": "/img/background-image-1.daf74cf0.png",
+              "width": 0,
+              "height": 0
+            }
+          }
+        ],
+        "description": "Technology. It makes the world go 'round. And whether you're a self-confessed techie or a total newbie, you'll find something to love among our hundreds of technology articles.",
+        "relatedBooks": {
+          "self": "https://dummies-api.dummies.com/v2/books?category=33512&offset=0&size=5"
+        }
+      },
+      "_links": {
+        "self": "https://dummies-api.dummies.com/v2/categories/33512"
+      }
+    },
+    "relatedCategoriesLoadedStatus": "success"
+  },
+  "listState": {
+    "list": {
+      "count": 10,
+      "total": 283,
+      "items": [
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 292091,
+          "data": {
+            "name": "Beginning Programming All-in-One For Dummies, 2nd Edition",
+            "title": "Beginning Programming All-in-One For Dummies, 2nd Edition",
+            "slug": "beginning-programming-all-in-one-for-dummies-2nd-edition",
+            "breadcrumbs": [
+              {
+                "name": "Technology",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33512"
+                },
+                "slug": "technology",
+                "categoryId": 33512
+              },
+              {
+                "name": "Programming & Web Design",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33592"
+                },
+                "slug": "programming-web-design",
+                "categoryId": 33592
+              },
+              {
+                "name": "General (Programming & Web Design)",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33610"
+                },
+                "slug": "general-programming-web-design",
+                "categoryId": 33610
+              }
+            ],
+            "description": "This volume packs seven books into one comprehensive, easy-to-follow guide to learning computer programming. Learn the principles of programming, algorithms, data structures, debugging programs, unique applications, and more. ",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "",
+            "publishedDate": "2022-06-06T18:11:22+00:00",
+            "primaryISBN": "9781119884408",
+            "secondaryISBNs": "",
+            "learningType": "Advance",
+            "primaryCategory": {
+              "categoryId": 33610,
+              "title": "General (Programming & Web Design)",
+              "slug": "general-programming-web-design",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33610"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119884403/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119884403/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119884403-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119884403/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119884403/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/9781119884408-203x255.jpg",
+              "width": 203,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 9043,
+                "name": "Wallace Wang",
+                "slug": "wallace-wang",
+                "description": "Wallace Wang is a stand-up comedian and the author of more than 10 best-selling For Dummies books. He focuses on screenwriting, movies, and comedy.",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/9043"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=292091&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/292091"
+          }
+        },
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 291775,
+          "data": {
+            "name": "Samsung Galaxy S22 For Dummies",
+            "title": "Samsung Galaxy S22 For Dummies",
+            "slug": "samsung-galaxy-s22-for-dummies",
+            "breadcrumbs": [
+              {
+                "name": "Technology",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33512"
+                },
+                "slug": "technology",
+                "categoryId": 33512
+              },
+              {
+                "name": "Electronics",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33543"
+                },
+                "slug": "electronics",
+                "categoryId": 33543
+              },
+              {
+                "name": "Cell Phones",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33544"
+                },
+                "slug": "cell-phones",
+                "categoryId": 33544
+              },
+              {
+                "name": "Samsung Galaxy",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33548"
+                },
+                "slug": "samsung-galaxy",
+                "categoryId": 33548
+              }
+            ],
+            "description": "Samsung Galaxy S22 For Dummies is your roadmap to unlocking the full potential of your new Galaxy. This friendly guide walks you through the Galaxy S22's home screen, buttons, menus, and various functions, and shows you how to customize your phone with ringtones, wallpapers, lock screens, and widgets. ",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "",
+            "publishedDate": "2022-05-23T18:11:22+00:00",
+            "primaryISBN": "9781119873068",
+            "secondaryISBNs": "",
+            "learningType": "Solve",
+            "primaryCategory": {
+              "categoryId": 33548,
+              "title": "Samsung Galaxy",
+              "slug": "samsung-galaxy",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33548"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119873061/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119873061/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119873061-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119873061/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119873061/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/9781119873068-203x255.jpg",
+              "width": 203,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 9094,
+                "name": "Bill Hughes",
+                "slug": "bill-hughes",
+                "description": "Bill Hughes is a veteran marketing strategy executive who has led initiatives to develop new products and solutions. He has worked for Xerox, Microsoft, IBM, General Electric, Motorola, and US West Cellular, and has written articles for several wireless industry trade magazines, as well as for USA Today and Forbes.   ",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/9094"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=291775&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/291775"
+          }
+        },
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 291207,
+          "data": {
+            "name": "Office 2021 for Macs For Dummies",
+            "title": "Office 2021 for Macs For Dummies",
+            "slug": "office-2021-for-macs-for-dummies",
+            "breadcrumbs": [
+              {
+                "name": "Technology",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33512"
+                },
+                "slug": "technology",
+                "categoryId": 33512
+              },
+              {
+                "name": "Software",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33618"
+                },
+                "slug": "software",
+                "categoryId": 33618
+              },
+              {
+                "name": "Microsoft Products",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33642"
+                },
+                "slug": "microsoft-products",
+                "categoryId": 33642
+              },
+              {
+                "name": "General (Microsoft)",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33652"
+                },
+                "slug": "general-microsoft",
+                "categoryId": 33652
+              }
+            ],
+            "description": "This handy guide will show you how to master the essentials of all the key apps that make Office 2021 such a productivity booster. Among many, this includes Word, Excel, and PowerPoint. You'll also discover brand-new features, like an improved dark mode, better accessibility capabilities, how to share documents directly in a collaborative setting, and much more.",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "",
+            "publishedDate": "2022-04-25T18:11:22+00:00",
+            "primaryISBN": "9781119840442",
+            "secondaryISBNs": "",
+            "learningType": "Advance",
+            "primaryCategory": {
+              "categoryId": 33652,
+              "title": "General (Microsoft)",
+              "slug": "general-microsoft",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33652"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119840449/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119840449/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119840449-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119840449/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119840449/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/9781119840442-203x255.jpg",
+              "width": 203,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 8989,
+                "name": "Bob LeVitus",
+                "slug": "bob-levitus",
+                "description": "Bob \"Dr. Mac\" LeVitus has been writing the \"Dr. Mac\" column for the Houston Chronicle for more than 20 years. A regular contributor to a variety of technology publications, he's a proud Mac aficionado who's written or co-written more than 85 how-to books on all things Mac, including multiple Mac operating systems, the iPhone, the iPad, Office for the Mac, and GarageBand.   ",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/8989"
+                }
+              },
+              {
+                "authorId": 9260,
+                "name": "Dwight Spivey",
+                "slug": "dwight-spivey",
+                "description": "Dwight Spivey has been a technical author and editor for over a decade, drawing on his talent for explaining technology to ordinary humans. He works as an educational technology administrator at Spring Hill College in Alabama. ",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/9260"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=291207&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/291207"
+          }
+        },
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 281625,
+          "data": {
+            "name": "Algorithms For Dummies, 2nd Edition",
+            "title": "Algorithms For Dummies, 2nd Edition",
+            "slug": "algorithms-for-dummies",
+            "breadcrumbs": [
+              {
+                "name": "Technology",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33512"
+                },
+                "slug": "technology",
+                "categoryId": 33512
+              },
+              {
+                "name": "Information Technology",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33572"
+                },
+                "slug": "information-technology",
+                "categoryId": 33572
+              },
+              {
+                "name": "Data Science",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33577"
+                },
+                "slug": "data-science",
+                "categoryId": 33577
+              },
+              {
+                "name": "General (Data Science)",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33580"
+                },
+                "slug": "general-data-science",
+                "categoryId": 33580
+              }
+            ],
+            "description": "This book demystifies the subject of algorithms so you can understand how important they are in business and scientific decision-making. In Algorithms For Dummies, 2nd Edition, you'll discover the basics of algorithms, including what they are, how they work, where you can find them (spoiler alert: everywhere!), who invented the most important ones in use today (a Greek philosopher is involved), and how to create them yourself. ",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "",
+            "publishedDate": "2022-04-18T18:11:22+00:00",
+            "primaryISBN": "9781119869986",
+            "secondaryISBNs": "9781119330523, 9781119330530, 9781119330493",
+            "learningType": "Advance",
+            "primaryCategory": {
+              "categoryId": 33580,
+              "title": "General (Data Science)",
+              "slug": "general-data-science",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33580"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119869986/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119869986/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119869986-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119869986/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119869986/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/9781119869986-203x255.jpg",
+              "width": 203,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 9109,
+                "name": "John Paul Mueller",
+                "slug": "john-paul-mueller",
+                "description": "John Paul Mueller has written more than 100 books and more than 600 articles on topics ranging from functional programming techniques to application development using C++.   ",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/9109"
+                }
+              },
+              {
+                "authorId": 9110,
+                "name": "Luca Massaron",
+                "slug": "luca-massaron",
+                "description": "Luca Massaron is a Google developer expert in machine learning. Massaron is a data scientist and marketing research director specializing in multivariate statistical analysis, machine learning, and customer insight.",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/9110"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=281625&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/281625"
+          }
+        },
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 281732,
+          "data": {
+            "name": "Hacking For Dummies, 7th Edition",
+            "title": "Hacking For Dummies, 7th Edition",
+            "slug": "hacking-for-dummies",
+            "breadcrumbs": [
+              {
+                "name": "Technology",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33512"
+                },
+                "slug": "technology",
+                "categoryId": 33512
+              },
+              {
+                "name": "Cybersecurity",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33537"
+                },
+                "slug": "cybersecurity",
+                "categoryId": 33537
+              }
+            ],
+            "description": "Stop hackers before they hack you!&nbsp; In order to outsmart a would-be hacker, you need to get into the hackers mindset. And with this book, thinking like a bad guy has never been easier. In Hacking For Dummies, expert author Kevin Beaver shares his knowledge on penetration testing, vulnerability assessments, security best practices, and every aspect of ethical hacking that is essential in order to stop a hacker in their tracks.",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "",
+            "publishedDate": "2022-04-11T18:11:22+00:00",
+            "primaryISBN": "9781119872191",
+            "secondaryISBNs": "9781119485513, 9781119485544, 9781119485476",
+            "learningType": "Advance",
+            "primaryCategory": {
+              "categoryId": 33537,
+              "title": "Cybersecurity",
+              "slug": "cybersecurity",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33537"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119872197/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119872197/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119872197-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119872197/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119872197/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/9781119872191-203x255.jpg",
+              "width": 203,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 8984,
+                "name": "Kevin Beaver",
+                "slug": "kevin-beaver",
+                "description": "Kevin Beaver is an independent information security consultant with more than three decades of experience. Beaver specializes in performing vulnerability and penetration testing and security consulting work for Fortune 1000 corporations, product vendors, independent software developers, universities, and government organizations. He has appeared on CNN and been quoted in The Wall Street Journal.",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/8984"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=281732&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/281732"
+          }
+        },
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 281694,
+          "data": {
+            "name": "Electronics All-in-One For Dummies, 3rd Edition",
+            "title": "Electronics All-in-One For Dummies, 3rd Edition",
+            "slug": "electronics-all-in-one-for-dummies",
+            "breadcrumbs": [
+              {
+                "name": "Technology",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33512"
+                },
+                "slug": "technology",
+                "categoryId": 33512
+              },
+              {
+                "name": "Electronics",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33543"
+                },
+                "slug": "electronics",
+                "categoryId": 33543
+              },
+              {
+                "name": "General (Electronics)",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33571"
+                },
+                "slug": "general-electronics",
+                "categoryId": 33571
+              }
+            ],
+            "description": "If you know a breadboard from a breadbox but want to take your hobby electronics skills to the next level, this is the only reference you need. Electronics All-in-One For Dummies has done the legwork for you offering everything you need to enhance your experience as an electronics enthusiast in one convenient place. Written by electronics guru and veteran For Dummies author Doug Lowe, this down-to-earth guide makes it easy to grasp such important topics as circuits, schematics, voltage, and safety concerns. ",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "",
+            "publishedDate": "2022-04-11T18:11:22+00:00",
+            "primaryISBN": "9781119822110",
+            "secondaryISBNs": "9781119320807, 9781119320814, 9781119320791",
+            "learningType": "Advance",
+            "primaryCategory": {
+              "categoryId": 33571,
+              "title": "General (Electronics)",
+              "slug": "general-electronics",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33571"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119822114/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119822114/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119822114-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119822114/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119822114/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/9781119822110-203x255.jpg",
+              "width": 203,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 8946,
+                "name": "Doug Lowe",
+                "slug": "doug-lowe",
+                "description": "Doug Lowe still has the electronics experimenter's kit his dad gave him when he was 10. He became an IT director, programmer, and author of books on various programming languages, Microsoft Office, web programming, and PCs. But Lowe never forgot his first love: electronics.",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/8946"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=281694&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/281694"
+          }
+        },
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 281820,
+          "data": {
+            "name": "Adobe Photoshop Lightroom Classic For Dummies, 2nd Edition",
+            "title": "Adobe Photoshop Lightroom Classic For Dummies, 2nd Edition",
+            "slug": "adobe-photoshop-lightroom-classic-for-dummies",
+            "breadcrumbs": [
+              {
+                "name": "Technology",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33512"
+                },
+                "slug": "technology",
+                "categoryId": 33512
+              },
+              {
+                "name": "Software",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33618"
+                },
+                "slug": "software",
+                "categoryId": 33618
+              },
+              {
+                "name": "Adobe Products",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33619"
+                },
+                "slug": "adobe-products",
+                "categoryId": 33619
+              },
+              {
+                "name": "Lightroom",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33628"
+                },
+                "slug": "lightroom",
+                "categoryId": 33628
+              }
+            ],
+            "description": "Adobe Photoshop Lightroom Classic For Dummies, 2nd Edition has the most up-to-date information on the latest version of Lightroom Classic. The book assumes no previous photography software experience as it walks you through the basics. Learn how to manage your photo library, edit and export photos, create slideshows and galleries, troubleshoot common problems, and more.",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "",
+            "publishedDate": "2022-04-11T18:11:22+00:00",
+            "primaryISBN": "9781119873211",
+            "secondaryISBNs": "9781119544982, 9781119544999, 9781119544968",
+            "learningType": "Explore",
+            "primaryCategory": {
+              "categoryId": 33628,
+              "title": "Lightroom",
+              "slug": "lightroom",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33628"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119873215/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119873215/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119873215-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119873215/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119873215/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/Lightroom-203x255.jpg",
+              "width": 203,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 27390,
+                "name": "Rob Sylvan",
+                "slug": "rob-sylvan",
+                "description": "Rob Sylvan has been answering Photoshop Lightroom questions on the KelbyOne Help Desk since Lightroom 1.0 was released in 2007. A photographer, writer, and educator, Sylvan teaches Lightroom and Photoshop classes at trade shows, conferences, and camera clubs around the US. He's also an adjunct faculty member at New Hampshire Technical Institute.   ",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/27390"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=281820&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/281820"
+          }
+        },
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 281675,
+          "data": {
+            "name": "Cybersecurity For Dummies, 2nd Edition",
+            "title": "Cybersecurity For Dummies, 2nd Edition",
+            "slug": "cybersecurity-for-dummies",
+            "breadcrumbs": [
+              {
+                "name": "Technology",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33512"
+                },
+                "slug": "technology",
+                "categoryId": 33512
+              },
+              {
+                "name": "Cybersecurity",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33537"
+                },
+                "slug": "cybersecurity",
+                "categoryId": 33537
+              }
+            ],
+            "description": "Whether you're concerned about your own information or your company's, it can be at risk for hacking or misuse. Learn how to set up the right security measures, prevent attacks, and what to do when your information is compromised. This updated edition covers ransomware, how working remotely affects cybersecurity, how to avoid misinformation, and much more.",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "",
+            "publishedDate": "2022-04-11T18:11:22+00:00",
+            "primaryISBN": "9781119867180",
+            "secondaryISBNs": "9781119560340, 9781119560357, 9781119560326",
+            "learningType": "Solve",
+            "primaryCategory": {
+              "categoryId": 33537,
+              "title": "Cybersecurity",
+              "slug": "cybersecurity",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33537"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119867185/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119867185/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119867185-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119867185/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119867185/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/9781119867180-203x255.jpg",
+              "width": 203,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 33198,
+                "name": "Joseph Steinberg",
+                "slug": "joseph-steinberg",
+                "description": "Joseph Steinberg is a cybersecurity and emerging technologies advisor with two decades of industry experience. Steinberg is one of only 28 people worldwide to hold the entire suite of advanced information security certifications (CISSP, ISSAP, ISSMP, and CSSLP). He has invented various cybersecurity-related technologies, which are cited in more than 400 U.S. patent filings.",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/33198"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=281675&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/281675"
+          }
+        },
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 281741,
+          "data": {
+            "name": "iPad and iPad Pro For Dummies, 12th Edition",
+            "title": "iPad and iPad Pro For Dummies, 12th Edition",
+            "slug": "ipad-and-ipad-pro-for-dummies",
+            "breadcrumbs": [
+              {
+                "name": "Technology",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33512"
+                },
+                "slug": "technology",
+                "categoryId": 33512
+              },
+              {
+                "name": "Electronics",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33543"
+                },
+                "slug": "electronics",
+                "categoryId": 33543
+              },
+              {
+                "name": "Tablets & E-Readers",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33557"
+                },
+                "slug": "tablets-e-readers",
+                "categoryId": 33557
+              },
+              {
+                "name": "iPads",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33560"
+                },
+                "slug": "ipads",
+                "categoryId": 33560
+              }
+            ],
+            "description": "This book is your friendly, easy-to-follow guide to iPad and iPad Pro operation, personalization, and maintenance so you can figure out your device quickly and enjoy it thoroughly. Learn to access the internet, read books, send and receive email, take photos and videos, and use all the apps you need and want for business and fun.",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "",
+            "publishedDate": "2022-04-04T18:11:22+00:00",
+            "primaryISBN": "9781119875734",
+            "secondaryISBNs": "9781119749004, 9781119749011, 9781119607977",
+            "learningType": "Advance",
+            "primaryCategory": {
+              "categoryId": 33560,
+              "title": "iPads",
+              "slug": "ipads",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33560"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119875730/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119875730/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119875730-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119875730/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119875730/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/9781119875734-203x255.jpg",
+              "width": 203,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 11290,
+                "name": "Paul McFedries",
+                "slug": "paul-mcfedries",
+                "description": "Paul McFedries is a true renaissance geek. He has been a programmer, consultant, database developer, and website builder. He's also the author of more than 90 books, including top sellers covering Windows, Office, and macOS.   ",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/11290"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=281741&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/281741"
+          }
+        },
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:21+00:00"
+          },
+          "bookId": 290646,
+          "data": {
+            "name": "Adobe Premiere Pro CC For Dummies",
+            "title": "Adobe Premiere Pro CC For Dummies",
+            "slug": "adobe-premiere-pro-cc-for-dummies",
+            "breadcrumbs": [
+              {
+                "name": "Technology",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33512"
+                },
+                "slug": "technology",
+                "categoryId": 33512
+              },
+              {
+                "name": "Software",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33618"
+                },
+                "slug": "software",
+                "categoryId": 33618
+              },
+              {
+                "name": "Adobe Products",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33619"
+                },
+                "slug": "adobe-products",
+                "categoryId": 33619
+              },
+              {
+                "name": "Premiere",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33630"
+                },
+                "slug": "premiere",
+                "categoryId": 33630
+              }
+            ],
+            "description": "Whether you're new to video editing or have some experience, you'll find this practical, easy-to-follow guide to Adobe Premiere Pro CC a valuable resource. Learn how to connect video clips into a continuous final product, complete with transitions, special effects, and more. The book also includes tricks of the trade and advice on improving sound, getting rid of color errors, and much more.",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "",
+            "publishedDate": "2022-03-28T18:11:21+00:00",
+            "primaryISBN": "9781119867494",
+            "secondaryISBNs": "",
+            "learningType": "Advance",
+            "primaryCategory": {
+              "categoryId": 33630,
+              "title": "Premiere",
+              "slug": "premiere",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33630"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119867495/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119867495/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119867495-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119867495/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119867495/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/9781119867494-203x255.jpg",
+              "width": 203,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 9204,
+                "name": "John Carucci",
+                "slug": "john-carucci",
+                "description": "John Carucci is an entertainment news producer for Associated Press Television. He is the author numerous books on creative and nighttime photography. Carucci has also contributed articles to American Photo, Popular Photography, and PC Photo magazines.",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/9204"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=290646&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/290646"
+          }
+        }
+      ],
+      "_links": {
+        "self": {
+          "self": "https://dummies-api.dummies.com/v2/categories/33512/categoryBooks?sortField=time&sortOrder=1&size=10&offset=0"
+        },
+        "next": {
+          "self": "https://dummies-api.dummies.com/v2/categories/33512/categoryBooks?sortField=time&sortOrder=1&size=10&offset=10"
+        },
+        "last": {
+          "self": "https://dummies-api.dummies.com/v2/categories/33512/categoryBooks?sortField=time&sortOrder=1&size=10&offset=273"
+        }
+      }
+    },
+    "objectTitle": "",
+    "status": "success",
+    "pageType": "book-category",
+    "objectId": "33512",
+    "page": 1,
+    "sortField": "time",
+    "sortOrder": 1,
+    "categoriesIds": [],
+    "articleTypes": [],
+    "filterData": {
+      "categoriesFilter": [
+        {
+          "itemId": 0,
+          "itemName": "All Categories",
+          "count": 282
+        },
+        {
+          "itemId": 33513,
+          "itemName": "Computers",
+          "count": 37
+        },
+        {
+          "itemId": 33537,
+          "itemName": "Cybersecurity",
+          "count": 6
+        },
+        {
+          "itemId": 33538,
+          "itemName": "Digital Audio & Radio",
+          "count": 2
+        },
+        {
+          "itemId": 33543,
+          "itemName": "Electronics",
+          "count": 31
+        },
+        {
+          "itemId": 33572,
+          "itemName": "Information Technology",
+          "count": 37
+        },
+        {
+          "itemId": 33587,
+          "itemName": "Internet Basics",
+          "count": 1
+        },
+        {
+          "itemId": 33588,
+          "itemName": "Notable Websites",
+          "count": 3
+        },
+        {
+          "itemId": 33592,
+          "itemName": "Programming & Web Design",
+          "count": 46
+        },
+        {
+          "itemId": 33611,
+          "itemName": "Social Media",
+          "count": 15
+        },
+        {
+          "itemId": 33618,
+          "itemName": "Software",
+          "count": 104
+        }
+      ]
+    },
+    "filterDataLoadedStatus": "success",
+    "pageSize": 10
+  },
+  "adsState": {
+    "pageScripts": {
+      "headers": {
+        "timestamp": "2022-05-02T18:59:07+00:00"
+      },
+      "adsId": 0,
+      "data": {
+        "scripts": [
+          {
+            "pages": [
+              "all"
+            ],
+            "location": "header",
+            "script": "&lt;!--Optimizely Script--&gt;\r\n&lt;script src=\"https://cdn.optimizely.com/js/10563184655.js\"&gt;&lt;/script&gt;",
+            "enabled": false
+          },
+          {
+            "pages": [
+              "all"
+            ],
+            "location": "header",
+            "script": "&lt;!-- comScore Tag --&gt;\r\n&lt;script&gt;var _comscore = _comscore || [];_comscore.push({ c1: \"2\", c2: \"15097263\" });(function() {var s = document.createElement(\"script\"), el = document.getElementsByTagName(\"script\")[0]; s.async = true;s.src = (document.location.protocol == \"https:\" ? \"https://sb\" : \"http://b\") + \".scorecardresearch.com/beacon.js\";el.parentNode.insertBefore(s, el);})();&lt;/script&gt;&lt;noscript&gt;&lt;img src=\"https://sb.scorecardresearch.com/p?c1=2&c2=15097263&cv=2.0&cj=1\" /&gt;&lt;/noscript&gt;\r\n&lt;!--  / comScore Tag --&gt;",
+            "enabled": true
+          },
+          {
+            "pages": [
+              "all"
+            ],
+            "location": "footer",
+            "script": "&lt;!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET--&gt;\r\n&lt;script type='text/javascript'&gt;\r\n(function(){var g=function(e,h,f,g){\r\nthis.get=function(a){for(var a=a+\"=\",c=document.cookie.split(\";\"),b=0,e=c.length;b&lt;e;b++){for(var d=c[b];\" \"==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};\r\nthis.set=function(a,c){var b=\"\",b=new Date;b.setTime(b.getTime()+6048E5);b=\"; expires=\"+b.toGMTString();document.cookie=a+\"=\"+c+b+\"; path=/; \"};\r\nthis.check=function(){var a=this.get(f);if(a)a=a.split(\":\");else if(100!=e)\"v\"==h&&(e=Math.random()&gt;=e/100?0:100),a=[h,e,0],this.set(f,a.join(\":\"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case \"v\":return!1;case \"r\":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(\":\")),!c}return!0};\r\nthis.go=function(){if(this.check()){var a=document.createElement(\"script\");a.type=\"text/javascript\";a.src=g;document.body&&document.body.appendChild(a)}};\r\nthis.start=function(){var t=this;\"complete\"!==document.readyState?window.addEventListener?window.addEventListener(\"load\",function(){t.go()},!1):window.attachEvent&&window.attachEvent(\"onload\",function(){t.go()}):t.go()};};\r\ntry{(new g(100,\"r\",\"QSI_S_ZN_5o5yqpvMVjgDOuN\",\"https://zn5o5yqpvmvjgdoun-wiley.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_5o5yqpvMVjgDOuN\")).start()}catch(i){}})();\r\n&lt;/script&gt;&lt;div id='ZN_5o5yqpvMVjgDOuN'&gt;&lt;!--DO NOT REMOVE-CONTENTS PLACED HERE--&gt;&lt;/div&gt;\r\n&lt;!--END WEBSITE FEEDBACK SNIPPET--&gt;",
+            "enabled": false
+          },
+          {
+            "pages": [
+              "all"
+            ],
+            "location": "header",
+            "script": "&lt;!-- Hotjar Tracking Code for http://www.dummies.com --&gt;\r\n&lt;script&gt;\r\n    (function(h,o,t,j,a,r){\r\n        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\r\n        h._hjSettings={hjid:257151,hjsv:6};\r\n        a=o.getElementsByTagName('head')[0];\r\n        r=o.createElement('script');r.async=1;\r\n        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\r\n        a.appendChild(r);\r\n    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');\r\n&lt;/script&gt;",
+            "enabled": false
+          },
+          {
+            "pages": [
+              "article"
+            ],
+            "location": "header",
+            "script": "&lt;!-- //Connect Container: dummies --&gt; &lt;script src=\"//get.s-onetag.com/bffe21a1-6bb8-4928-9449-7beadb468dae/tag.min.js\" async defer&gt;&lt;/script&gt;",
+            "enabled": true
+          },
+          {
+            "pages": [
+              "homepage"
+            ],
+            "location": "header",
+            "script": "&lt;meta name=\"facebook-domain-verification\" content=\"irk8y0irxf718trg3uwwuexg6xpva0\" /&gt;",
+            "enabled": true
+          },
+          {
+            "pages": [
+              "homepage",
+              "article",
+              "category",
+              "search"
+            ],
+            "location": "footer",
+            "script": "&lt;!-- Facebook Pixel Code --&gt;\r\n&lt;noscript&gt;\r\n&lt;img height=\"1\" width=\"1\" src=\"https://www.facebook.com/tr?id=256338321977984&ev=PageView&noscript=1\"/&gt;\r\n&lt;/noscript&gt;\r\n&lt;!-- End Facebook Pixel Code --&gt;",
+            "enabled": true
+          }
+        ]
+      }
+    },
+    "pageScriptsLoadedStatus": "success"
+  },
+  "searchState": {
+    "searchList": [],
+    "searchStatus": "initial",
+    "relatedArticlesList": [],
+    "relatedArticlesStatus": "initial"
+  },
+  "routeState": {
+    "name": "BookCategory",
+    "path": "/category/books/technology-33512/",
+    "hash": "",
+    "query": {},
+    "params": {
+      "category": "technology-33512"
+    },
+    "fullPath": "/category/books/technology-33512/",
+    "meta": {
+      "routeType": "category",
+      "breadcrumbInfo": {
+        "suffix": "Books",
+        "baseRoute": "/category/books"
+      },
+      "prerenderWithAsyncData": true
+    },
+    "from": {
+      "name": null,
+      "path": "/",
+      "hash": "",
+      "query": {},
+      "params": {},
+      "fullPath": "/",
+      "meta": {}
+    }
+  },
+  "sfmcState": {
+    "newsletterSignupStatus": "initial"
+  }
+}

@@ -1,0 +1,1430 @@
+{
+  "appState": {
+    "pageLoadApiCallsStatus": true
+  },
+  "categoryState": {
+    "relatedCategories": {
+      "headers": {
+        "timestamp": "2022-05-02T18:31:13+00:00"
+      },
+      "categoryId": 33662,
+      "data": {
+        "title": "Academics & The Arts",
+        "slug": "academics-the-arts",
+        "image": {
+          "src": "https://www.dummies.com/wp-content/uploads/academics-and-arts-category.jpg",
+          "width": 643,
+          "height": 1286
+        },
+        "breadcrumbs": [
+          {
+            "name": "Academics & The Arts",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33662"
+            },
+            "slug": "academics-the-arts",
+            "categoryId": 33662
+          }
+        ],
+        "parentCategory": {
+          "categoryId": 0,
+          "title": null,
+          "slug": null,
+          "_links": null
+        },
+        "childCategories": [
+          {
+            "categoryId": 33663,
+            "title": "Art & Architecture",
+            "slug": "art-architecture",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33663"
+            },
+            "image": {
+              "src": "/img/background-image-2.fabfbd5c.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33670,
+            "title": "History",
+            "slug": "history",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33670"
+            },
+            "image": {
+              "src": "/img/background-image-1.daf74cf0.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33686,
+            "title": "Humanities",
+            "slug": "humanities",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33686"
+            },
+            "image": {
+              "src": "/img/background-image-2.fabfbd5c.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33687,
+            "title": "Language & Language Arts",
+            "slug": "language-language-arts",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33687"
+            },
+            "image": {
+              "src": "/img/background-image-1.daf74cf0.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33712,
+            "title": "Law",
+            "slug": "law",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33712"
+            },
+            "image": {
+              "src": "/img/background-image-2.fabfbd5c.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33720,
+            "title": "Math",
+            "slug": "math",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33720"
+            },
+            "image": {
+              "src": "/img/background-image-1.daf74cf0.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33730,
+            "title": "Music",
+            "slug": "music",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33730"
+            },
+            "image": {
+              "src": "/img/background-image-2.fabfbd5c.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33747,
+            "title": "Performing Arts",
+            "slug": "performing-arts",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33747"
+            },
+            "image": {
+              "src": "/img/background-image-1.daf74cf0.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33751,
+            "title": "Political Science",
+            "slug": "political-science",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33751"
+            },
+            "image": {
+              "src": "/img/background-image-2.fabfbd5c.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33756,
+            "title": "Science",
+            "slug": "science",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33756"
+            },
+            "image": {
+              "src": "/img/background-image-1.daf74cf0.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33772,
+            "title": "Study Skills & Test Prep",
+            "slug": "study-skills-test-prep",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33772"
+            },
+            "image": {
+              "src": "/img/background-image-2.fabfbd5c.png",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "categoryId": 33800,
+            "title": "Teaching",
+            "slug": "teaching",
+            "_links": {
+              "self": "https://dummies-api.dummies.com/v2/categories/33800"
+            },
+            "image": {
+              "src": "/img/background-image-1.daf74cf0.png",
+              "width": 0,
+              "height": 0
+            }
+          }
+        ],
+        "description": "Maybe you need help passing calculus ― or the real estate exam. You're looking to move up at work or school. Or maybe you're done with school, but you want to learn Spanish or acting or songwriting. It's all here. Dive in!",
+        "relatedBooks": {
+          "self": "https://dummies-api.dummies.com/v2/books?category=33662&offset=0&size=5"
+        }
+      },
+      "_links": {
+        "self": "https://dummies-api.dummies.com/v2/categories/33662"
+      }
+    },
+    "relatedCategoriesLoadedStatus": "success"
+  },
+  "listState": {
+    "list": {
+      "count": 10,
+      "total": 278,
+      "items": [
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 292099,
+          "data": {
+            "name": "SAT Prep 2023 For Dummies with Online Practice",
+            "title": "SAT Prep 2023 For Dummies with Online Practice",
+            "slug": "sat-prep-2023-for-dummies-with-online-practice",
+            "breadcrumbs": [
+              {
+                "name": "Academics & The Arts",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33662"
+                },
+                "slug": "academics-the-arts",
+                "categoryId": 33662
+              },
+              {
+                "name": "Study Skills & Test Prep",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33772"
+                },
+                "slug": "study-skills-test-prep",
+                "categoryId": 33772
+              },
+              {
+                "name": "SAT",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33794"
+                },
+                "slug": "sat",
+                "categoryId": 33794
+              }
+            ],
+            "description": "SAT Prep 2023 For Dummies with Online Practice is your friendly, comprehensive guide to scoring high on the SAT. The book walks you through all of the crucial content in each of the exam's subject areas so, when exam day arrives, you'll feel confident and ready to go. Also included is a math refresher, study tips, and online practice tests.",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "",
+            "publishedDate": "2022-06-13T18:11:22+00:00",
+            "primaryISBN": "9781119886792",
+            "secondaryISBNs": "",
+            "learningType": "Advance",
+            "primaryCategory": {
+              "categoryId": 33794,
+              "title": "SAT",
+              "slug": "sat",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33794"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119886791/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119886791/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119886791-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119886791/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119886791/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/9781119886792-199x255.jpg",
+              "width": 199,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 8978,
+                "name": "Ron Woldoff",
+                "slug": "ron-woldoff",
+                "description": "Ron Woldoff is the founder of National Test Prep and has taught SAT, ACT, PSAT, GMAT, and GRE prep courses at Arizona high schools and universities. ",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/8978"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=292099&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/292099"
+          }
+        },
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 292100,
+          "data": {
+            "name": "U.S. Citizenship For Dummies, 2nd Edition",
+            "title": "U.S. Citizenship For Dummies, 2nd Edition",
+            "slug": "u-s-citizenship-for-dummies-2nd-edition",
+            "breadcrumbs": [
+              {
+                "name": "Academics & The Arts",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33662"
+                },
+                "slug": "academics-the-arts",
+                "categoryId": 33662
+              },
+              {
+                "name": "Study Skills & Test Prep",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33772"
+                },
+                "slug": "study-skills-test-prep",
+                "categoryId": 33772
+              },
+              {
+                "name": "Citizenship Tests",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33778"
+                },
+                "slug": "citizenship-tests",
+                "categoryId": 33778
+              }
+            ],
+            "description": "This book is a hands-on, easy-to-follow guide to all you need to know about the complicated process of obtaining U.S. citizenship. It includes how to prepare for the exam and interview process, as well as recent changes to immigration laws. Also included are updates related to the applications and immigration forms, different types of visas and green cards, and much more.",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "",
+            "publishedDate": "2022-06-13T18:11:22+00:00",
+            "primaryISBN": "9781119766735",
+            "secondaryISBNs": "",
+            "learningType": "Advance",
+            "primaryCategory": {
+              "categoryId": 33778,
+              "title": "Citizenship Tests",
+              "slug": "citizenship-tests",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33778"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119766737/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119766737/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119766737-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119766737/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119766737/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/9781119766735-203x255.jpg",
+              "width": 203,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 34764,
+                "name": "Jennifer Gagliardi",
+                "slug": "jennifer-gagliardi",
+                "description": "Jennifer Gagliardi has been teaching English as a second language and U.S. citizenship at Milpitas Adult School, in Milpitas, California, since 2002. In 2007, she launched U.S. Citizenship Podcast (uscitizenpod.com), which distributes citizenship resources and immigration news. She regularly presents workshops on the intersection between citizenship and technology at national, state, and regional adult education conferences.  Gagliardi has worked on many citizenship projects, most notably coordinating the Santa Clara County Library District Citizenship outreach project, which partnered with local affiliates of the International Rescue Committee, and the Services, Immigrant Rights, and Education Network to help naturalize more than 200 new U.S. citizens, as well as register young immigrants for DACA.",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/34764"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=292100&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/292100"
+          }
+        },
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 292101,
+          "data": {
+            "name": "ACT Prep 2023 For Dummies with Online Practice",
+            "title": "ACT Prep 2023 For Dummies with Online Practice",
+            "slug": "act-prep-2023-for-dummies-with-online-practice",
+            "breadcrumbs": [
+              {
+                "name": "Academics & The Arts",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33662"
+                },
+                "slug": "academics-the-arts",
+                "categoryId": 33662
+              },
+              {
+                "name": "Study Skills & Test Prep",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33772"
+                },
+                "slug": "study-skills-test-prep",
+                "categoryId": 33772
+              },
+              {
+                "name": "ACT",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33775"
+                },
+                "slug": "act",
+                "categoryId": 33775
+              }
+            ],
+            "description": "ACT Prep 2023 For Dummies equips you with all the tools you need to do great on the ACT exam. The book includes a math refresh, tips for powering through the reading comprehension section, flash cards for memory retention, and online practice tests. All of the ACT's subjects — math, science, reading, and English — are covered.",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "",
+            "publishedDate": "2022-06-13T18:11:22+00:00",
+            "primaryISBN": "9781119886822",
+            "secondaryISBNs": "",
+            "learningType": "Advance",
+            "primaryCategory": {
+              "categoryId": 33775,
+              "title": "ACT",
+              "slug": "act",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33775"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119886821/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119886821/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119886821-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119886821/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119886821/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/9781119886822-199x255.jpg",
+              "width": 199,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 9087,
+                "name": "Scott A. Hatch",
+                "slug": "scott-a-hatch",
+                "description": "Scott A. Hatch, JD, has helped thousands of students confront standardized tests with confidence and achieve success. He has coached paralegals and other legal professionals with live-lecture, online, DVD, and independent-study courses in more than 300 universities. ",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/9087"
+                }
+              },
+              {
+                "authorId": 9086,
+                "name": "Lisa Zimmer Hatch",
+                "slug": "lisa-zimmer-hatch",
+                "description": "Lisa Zimmer Hatch, MA, has helped thousands of students confront standardized tests with confidence and achieve success. She has coached paralegals and other legal professionals with live-lecture, online, DVD, and independent-study courses in more than 300 universities.   ",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/9086"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=292101&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/292101"
+          }
+        },
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 282251,
+          "data": {
+            "name": "GRE Prep 2023 For Dummies with Online Practice",
+            "title": "GRE Prep 2023 For Dummies with Online Practice",
+            "slug": "gre-for-dummies-with-online-practice-tests",
+            "breadcrumbs": [
+              {
+                "name": "Academics & The Arts",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33662"
+                },
+                "slug": "academics-the-arts",
+                "categoryId": 33662
+              },
+              {
+                "name": "Study Skills & Test Prep",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33772"
+                },
+                "slug": "study-skills-test-prep",
+                "categoryId": 33772
+              },
+              {
+                "name": "GRE",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33785"
+                },
+                "slug": "gre",
+                "categoryId": 33785
+              }
+            ],
+            "description": "GRE Prep 2023 For Dummies has everything you need to get ready and do great on the GRE. You'll find practice questions for vocabulary and mathematics, detailed explanations, updated strategies for improving your score and testing well, and online practice tests. ",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "https://testbanks.wiley.com/",
+            "publishedDate": "2022-05-30T18:11:22+00:00",
+            "primaryISBN": "9781119886600",
+            "secondaryISBNs": "9781119550815, 9781119550839, 9781119550785, 9781119811497",
+            "learningType": "Advance",
+            "primaryCategory": {
+              "categoryId": 33785,
+              "title": "GRE",
+              "slug": "gre",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33785"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119886600/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119886600/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119886600-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119886600/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119886600/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/9781119886600-199x255.jpg",
+              "width": 199,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 8978,
+                "name": "Ron Woldoff",
+                "slug": "ron-woldoff",
+                "description": "Ron Woldoff is the founder of National Test Prep and has taught SAT, ACT, PSAT, GMAT, and GRE prep courses at Arizona high schools and universities. ",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/8978"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=282251&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/282251"
+          }
+        },
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 291942,
+          "data": {
+            "name": "GMAT Prep 2023 For Dummies with Online Practice",
+            "title": "GMAT Prep 2023 For Dummies with Online Practice",
+            "slug": "gmat-prep-2023-for-dummies-with-online-practice",
+            "breadcrumbs": [
+              {
+                "name": "Academics & The Arts",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33662"
+                },
+                "slug": "academics-the-arts",
+                "categoryId": 33662
+              },
+              {
+                "name": "Study Skills & Test Prep",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33772"
+                },
+                "slug": "study-skills-test-prep",
+                "categoryId": 33772
+              },
+              {
+                "name": "GMAT",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33784"
+                },
+                "slug": "gmat",
+                "categoryId": 33784
+              }
+            ],
+            "description": "This trusted GMAT study guide has the clear explanations and practice you need to maximize your scores on all categories of the exam. Figure out where you need to study the most and create a targeted study plan. The book also includes seven full-length practice tests, so you'll be an old pro by the time test day rolls around.",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "",
+            "publishedDate": "2022-05-30T18:11:22+00:00",
+            "primaryISBN": "9781119886631",
+            "secondaryISBNs": "",
+            "learningType": "Advance",
+            "primaryCategory": {
+              "categoryId": 33784,
+              "title": "GMAT",
+              "slug": "gmat",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33784"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119886635/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119886635/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119886635-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119886635/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119886635/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/1119886635-199x255.jpg",
+              "width": 199,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 9086,
+                "name": "Lisa Zimmer Hatch",
+                "slug": "lisa-zimmer-hatch",
+                "description": "Lisa Zimmer Hatch, MA, has helped thousands of students confront standardized tests with confidence and achieve success. She has coached paralegals and other legal professionals with live-lecture, online, DVD, and independent-study courses in more than 300 universities.   ",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/9086"
+                }
+              },
+              {
+                "authorId": 9087,
+                "name": "Scott A. Hatch",
+                "slug": "scott-a-hatch",
+                "description": "Scott A. Hatch, JD, has helped thousands of students confront standardized tests with confidence and achieve success. He has coached paralegals and other legal professionals with live-lecture, online, DVD, and independent-study courses in more than 300 universities. ",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/9087"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=291942&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/291942"
+          }
+        },
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 282563,
+          "data": {
+            "name": "Securities Industry Essentials Exam 2023-2024 For Dummies with Online Practice",
+            "title": "Securities Industry Essentials Exam 2023-2024 For Dummies with Online Practice",
+            "slug": "securities-industry-essentials-exam-for-dummies-with-online-practice",
+            "breadcrumbs": [
+              {
+                "name": "Academics & The Arts",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33662"
+                },
+                "slug": "academics-the-arts",
+                "categoryId": 33662
+              },
+              {
+                "name": "Study Skills & Test Prep",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33772"
+                },
+                "slug": "study-skills-test-prep",
+                "categoryId": 33772
+              },
+              {
+                "name": "Securities Industry Essentials Exam",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33795"
+                },
+                "slug": "securities-industry-essentials-exam",
+                "categoryId": 33795
+              }
+            ],
+            "description": "This book has everything you need to score high on the Securities Industry Essentials exam, including hundreds of practice questions and four practice tests, accessed in the book and online. Author Steven Rice, partner in Empire Stockbroker Training Institute, explains concepts in a straightforward, easy-to-understand way, so you'll be ready and feeling confident on your exam day.",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "https://testbanks.wiley.com",
+            "publishedDate": "2022-05-23T18:11:22+00:00",
+            "primaryISBN": "9781119886853",
+            "secondaryISBNs": "9781119545002",
+            "learningType": "Advance",
+            "primaryCategory": {
+              "categoryId": 33795,
+              "title": "Securities Industry Essentials Exam",
+              "slug": "securities-industry-essentials-exam",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33795"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119886856/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119886856/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119886856-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119886856/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119886856/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/9781119886853-203x255.jpg",
+              "width": 203,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 8980,
+                "name": "Steven M. Rice",
+                "slug": "steven-m-rice",
+                "description": "Steven M. Rice is a partner and instructor at Empire Stockbroker Training Institute, one of the country's leading schools for securities industry training. Rice is the author of Securities Industry Essentials Exam For Dummies.  ",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/8980"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=282563&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/282563"
+          }
+        },
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 281916,
+          "data": {
+            "name": "Chemistry: 1001 Practice Problems For Dummies (+ Free Online Practice)",
+            "title": "Chemistry: 1001 Practice Problems For Dummies (+ Free Online Practice)",
+            "slug": "chemistry-1001-practice-problems-for-dummies-free-online-practice",
+            "breadcrumbs": [
+              {
+                "name": "Academics & The Arts",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33662"
+                },
+                "slug": "academics-the-arts",
+                "categoryId": 33662
+              },
+              {
+                "name": "Science",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33756"
+                },
+                "slug": "science",
+                "categoryId": 33756
+              },
+              {
+                "name": "Chemistry",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33762"
+                },
+                "slug": "chemistry",
+                "categoryId": 33762
+              }
+            ],
+            "description": "Chemistry: 1001 Practice Problems For Dummies provides 1,001 more opportunities to practice what you're learning in class. The book includes step-by-step explanations for each answer and one year of free online access to the problems so you can practice anywhere, anytime.",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "",
+            "publishedDate": "2022-05-23T18:11:22+00:00",
+            "primaryISBN": "9781119883531",
+            "secondaryISBNs": "9781118549339, 9781118549353, 9781118549322",
+            "learningType": "Advance",
+            "primaryCategory": {
+              "categoryId": 33762,
+              "title": "Chemistry",
+              "slug": "chemistry",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33762"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119883539/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119883539/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119883539-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119883539/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119883539/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/9781119883531-204x255.jpg",
+              "width": 204,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 9451,
+                "name": "Heather Hattori",
+                "slug": "heather-hattori",
+                "description": "Heather Hattori has taught chemistry, physics, physical science, sheltered science classes, and environmental science for 20 years. She also wrote curriculum for national teacher certification programs and was a reader for the AP Chemistry exam. Hattori has taught at Stephen F. Austin State University and Texas Woman's University. She is coauthor of Practice Makes Perfect Chemistry.",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/9451"
+                }
+              },
+              {
+                "authorId": 9452,
+                "name": "Richard H. Langley",
+                "slug": "richard-h-langley",
+                "description": "Richard Langley has taught at Stephen F. Austin State University in Nacogdoches, Texas since 1982. He is the author of 500 Physical Chemistry Questions and coauthor of numerous other books, including Chemistry for the Utterly Confused, Organic Chemistry II For Dummies, and Biochemistry For Dummies.",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/9452"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=281916&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/281916"
+          }
+        },
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 282249,
+          "data": {
+            "name": "Grammar: 1001 Practice Questions For Dummies (+ Free Online Practice)",
+            "title": "Grammar: 1001 Practice Questions For Dummies (+ Free Online Practice)",
+            "slug": "grammar-1001-practice-questions-for-dummies",
+            "breadcrumbs": [
+              {
+                "name": "Academics & The Arts",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33662"
+                },
+                "slug": "academics-the-arts",
+                "categoryId": 33662
+              },
+              {
+                "name": "Language & Language Arts",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33687"
+                },
+                "slug": "language-language-arts",
+                "categoryId": 33687
+              },
+              {
+                "name": "Grammar & Vocabulary",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33688"
+                },
+                "slug": "grammar-vocabulary",
+                "categoryId": 33688
+              }
+            ],
+            "description": "Need a little more practice in grammar? This book provides 1,001 opportunities to hone your skills, which improves your writing and grades. You'll find step-by-step explanations of answers to the questions. Also included is one year of free online access to the questions and the ability to create customized quizzes.",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "",
+            "publishedDate": "2022-05-16T18:11:22+00:00",
+            "primaryISBN": "9781119883746",
+            "secondaryISBNs": "9781118744741, 9781118744758, 9781118745014",
+            "learningType": "Advance",
+            "primaryCategory": {
+              "categoryId": 33688,
+              "title": "Grammar & Vocabulary",
+              "slug": "grammar-vocabulary",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33688"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119883741/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119883741/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119883741-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119883741/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119883741/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/9781119883746-204x255.jpg",
+              "width": 204,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 8977,
+                "name": "Geraldine Woods",
+                "slug": "geraldine-woods",
+                "description": "Geraldine Woods has more than 35 years of teaching experience. She is the author of more than 50 books, including English Grammar Workbook For Dummies and Research Papers For Dummies. At grammarianinthecity.com, Woods blogs about language trends and funny signs she spots around New York City.",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/8977"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=282249&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/282249"
+          }
+        },
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 282468,
+          "data": {
+            "name": "Physics I: 501 Practice Problems For Dummies (+ Free Online Practice)",
+            "title": "Physics I: 501 Practice Problems For Dummies (+ Free Online Practice)",
+            "slug": "physics-i-practice-problems-for-dummies",
+            "breadcrumbs": [
+              {
+                "name": "Academics & The Arts",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33662"
+                },
+                "slug": "academics-the-arts",
+                "categoryId": 33662
+              },
+              {
+                "name": "Science",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33756"
+                },
+                "slug": "science",
+                "categoryId": 33756
+              },
+              {
+                "name": "Physics",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33769"
+                },
+                "slug": "physics",
+                "categoryId": 33769
+              }
+            ],
+            "description": "Practice your way to a better understanding of physics, and to better grades. This book provides 501 opportunities to hone your skills, and includes a step-by-step explanation of each problem. Also, the book includes free online access to the problems so you can practice anywhere, anytime.",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "",
+            "publishedDate": "2022-05-16T18:11:22+00:00",
+            "primaryISBN": "9781119883715",
+            "secondaryISBNs": "9781118853238, 9781118853276, 9781118853153",
+            "learningType": "Advance",
+            "primaryCategory": {
+              "categoryId": 33769,
+              "title": "Physics",
+              "slug": "physics",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33769"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 0,
+              "title": null,
+              "slug": null,
+              "_links": null
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119883717/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119883717/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119883717-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119883717/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119883717/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/9781119883715-204x255.jpg",
+              "width": 204,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 8947,
+                "name": "The Experts at Dummies",
+                "slug": "the-experts-at-dummies",
+                "description": "The Experts at Dummies are smart, friendly people who make learning easy by taking a not-so-serious approach to serious stuff.",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/8947"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=282468&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/282468"
+          }
+        },
+        {
+          "headers": {
+            "timestamp": "2022-05-02T18:11:22+00:00"
+          },
+          "bookId": 281915,
+          "data": {
+            "name": "Basic Math and Pre-Algebra: 1001 Practice Problems For Dummies (+ Free Online Practice)",
+            "title": "Basic Math and Pre-Algebra: 1001 Practice Problems For Dummies (+ Free Online Practice)",
+            "slug": "basic-math-and-pre-algebra-1001-practice-problems-for-dummies-free-online-practice",
+            "breadcrumbs": [
+              {
+                "name": "Academics & The Arts",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33662"
+                },
+                "slug": "academics-the-arts",
+                "categoryId": 33662
+              },
+              {
+                "name": "Math",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33720"
+                },
+                "slug": "math",
+                "categoryId": 33720
+              },
+              {
+                "name": "Basic Math",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/categories/33722"
+                },
+                "slug": "basic-math",
+                "categoryId": 33722
+              }
+            ],
+            "description": "These 1,001 practice problems give you a chance to reinforce the skills you learn in class and help you refine your understanding of basic math and pre-algebra. Each answer to a problem includes a step-by-step explanation. Also, the book includes one year of free, online access to the problems so you can practice anywhere, anytime.",
+            "bookOutOfPrint": true,
+            "testBankPinActivationLink": "",
+            "publishedDate": "2022-05-16T18:11:22+00:00",
+            "primaryISBN": "9781119883500",
+            "secondaryISBNs": "9781118446560",
+            "learningType": "Advance",
+            "primaryCategory": {
+              "categoryId": 33722,
+              "title": "Basic Math",
+              "slug": "basic-math",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33722"
+              }
+            },
+            "secondaryCategory": {
+              "categoryId": 33726,
+              "title": "Pre-Algebra",
+              "slug": "pre-algebra",
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/categories/33726"
+              }
+            },
+            "amazon": {
+              "default": "https://www.amazon.com/gp/product/1119883504/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "ca": "https://www.amazon.ca/gp/product/1119883504/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "indigo_ca": "http://www.tkqlhce.com/click-9208661-13710633?url=https://www.chapters.indigo.ca/en-ca/books/product/1119883504-item.html&cjsku=978111945484",
+              "gb": "https://www.amazon.co.uk/gp/product/1119883504/ref=as_li_tl?ie=UTF8&tag=wiley01-20",
+              "de": "https://www.amazon.de/gp/product/1119883504/ref=as_li_tl?ie=UTF8&tag=wiley01-20"
+            },
+            "image": {
+              "src": "https://www.dummies.com/wp-content/uploads/9781119883500-204x255.jpg",
+              "width": 204,
+              "height": 255
+            },
+            "authors": [
+              {
+                "authorId": 9399,
+                "name": "Mark Zegarelli",
+                "slug": "mark-zegarelli",
+                "description": "Mark Zegarelli is a math and test prep tutor and instructor. He is the author of Basic Math & Pre-Algebra For Dummies, SAT Math For Dummies, ACT Math For Dummies, Logic For Dummies, and Calculus II For Dummies.",
+                "_links": {
+                  "self": "https://dummies-api.dummies.com/v2/authors/9399"
+                }
+              }
+            ],
+            "relatedArticles": {
+              "_links": {
+                "self": "https://dummies-api.dummies.com/v2/articles?book=281915&offset=0&size=5"
+              }
+            },
+            "relatedBooks": [],
+            "cheatSheet": null,
+            "bookAuthorBio": "",
+            "additionalResourceLink": "",
+            "bookCompanionPage": {
+              "pageId": 0,
+              "name": null,
+              "slug": null,
+              "_links": null
+            }
+          },
+          "_links": {
+            "self": "https://dummies-api.dummies.com/v2/books/281915"
+          }
+        }
+      ],
+      "_links": {
+        "self": {
+          "self": "https://dummies-api.dummies.com/v2/categories/33662/categoryBooks?sortField=time&sortOrder=1&size=10&offset=0"
+        },
+        "next": {
+          "self": "https://dummies-api.dummies.com/v2/categories/33662/categoryBooks?sortField=time&sortOrder=1&size=10&offset=10"
+        },
+        "last": {
+          "self": "https://dummies-api.dummies.com/v2/categories/33662/categoryBooks?sortField=time&sortOrder=1&size=10&offset=268"
+        }
+      }
+    },
+    "objectTitle": "",
+    "status": "success",
+    "pageType": "book-category",
+    "objectId": "33662",
+    "page": 1,
+    "sortField": "time",
+    "sortOrder": 1,
+    "categoriesIds": [],
+    "articleTypes": [],
+    "filterData": {
+      "categoriesFilter": [
+        {
+          "itemId": 0,
+          "itemName": "All Categories",
+          "count": 278
+        },
+        {
+          "itemId": 33663,
+          "itemName": "Art & Architecture",
+          "count": 6
+        },
+        {
+          "itemId": 33670,
+          "itemName": "History",
+          "count": 24
+        },
+        {
+          "itemId": 33686,
+          "itemName": "Humanities",
+          "count": 3
+        },
+        {
+          "itemId": 33687,
+          "itemName": "Language & Language Arts",
+          "count": 59
+        },
+        {
+          "itemId": 33712,
+          "itemName": "Law",
+          "count": 6
+        },
+        {
+          "itemId": 33720,
+          "itemName": "Math",
+          "count": 33
+        },
+        {
+          "itemId": 33730,
+          "itemName": "Music",
+          "count": 34
+        },
+        {
+          "itemId": 33747,
+          "itemName": "Performing Arts",
+          "count": 8
+        },
+        {
+          "itemId": 33751,
+          "itemName": "Political Science",
+          "count": 7
+        },
+        {
+          "itemId": 33756,
+          "itemName": "Science",
+          "count": 43
+        },
+        {
+          "itemId": 33772,
+          "itemName": "Study Skills & Test Prep",
+          "count": 49
+        },
+        {
+          "itemId": 33800,
+          "itemName": "Teaching",
+          "count": 6
+        }
+      ]
+    },
+    "filterDataLoadedStatus": "success",
+    "pageSize": 10
+  },
+  "adsState": {
+    "pageScripts": {
+      "headers": {
+        "timestamp": "2022-05-02T18:59:07+00:00"
+      },
+      "adsId": 0,
+      "data": {
+        "scripts": [
+          {
+            "pages": [
+              "all"
+            ],
+            "location": "header",
+            "script": "&lt;!--Optimizely Script--&gt;\r\n&lt;script src=\"https://cdn.optimizely.com/js/10563184655.js\"&gt;&lt;/script&gt;",
+            "enabled": false
+          },
+          {
+            "pages": [
+              "all"
+            ],
+            "location": "header",
+            "script": "&lt;!-- comScore Tag --&gt;\r\n&lt;script&gt;var _comscore = _comscore || [];_comscore.push({ c1: \"2\", c2: \"15097263\" });(function() {var s = document.createElement(\"script\"), el = document.getElementsByTagName(\"script\")[0]; s.async = true;s.src = (document.location.protocol == \"https:\" ? \"https://sb\" : \"http://b\") + \".scorecardresearch.com/beacon.js\";el.parentNode.insertBefore(s, el);})();&lt;/script&gt;&lt;noscript&gt;&lt;img src=\"https://sb.scorecardresearch.com/p?c1=2&c2=15097263&cv=2.0&cj=1\" /&gt;&lt;/noscript&gt;\r\n&lt;!--  / comScore Tag --&gt;",
+            "enabled": true
+          },
+          {
+            "pages": [
+              "all"
+            ],
+            "location": "footer",
+            "script": "&lt;!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET--&gt;\r\n&lt;script type='text/javascript'&gt;\r\n(function(){var g=function(e,h,f,g){\r\nthis.get=function(a){for(var a=a+\"=\",c=document.cookie.split(\";\"),b=0,e=c.length;b&lt;e;b++){for(var d=c[b];\" \"==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};\r\nthis.set=function(a,c){var b=\"\",b=new Date;b.setTime(b.getTime()+6048E5);b=\"; expires=\"+b.toGMTString();document.cookie=a+\"=\"+c+b+\"; path=/; \"};\r\nthis.check=function(){var a=this.get(f);if(a)a=a.split(\":\");else if(100!=e)\"v\"==h&&(e=Math.random()&gt;=e/100?0:100),a=[h,e,0],this.set(f,a.join(\":\"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case \"v\":return!1;case \"r\":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(\":\")),!c}return!0};\r\nthis.go=function(){if(this.check()){var a=document.createElement(\"script\");a.type=\"text/javascript\";a.src=g;document.body&&document.body.appendChild(a)}};\r\nthis.start=function(){var t=this;\"complete\"!==document.readyState?window.addEventListener?window.addEventListener(\"load\",function(){t.go()},!1):window.attachEvent&&window.attachEvent(\"onload\",function(){t.go()}):t.go()};};\r\ntry{(new g(100,\"r\",\"QSI_S_ZN_5o5yqpvMVjgDOuN\",\"https://zn5o5yqpvmvjgdoun-wiley.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_5o5yqpvMVjgDOuN\")).start()}catch(i){}})();\r\n&lt;/script&gt;&lt;div id='ZN_5o5yqpvMVjgDOuN'&gt;&lt;!--DO NOT REMOVE-CONTENTS PLACED HERE--&gt;&lt;/div&gt;\r\n&lt;!--END WEBSITE FEEDBACK SNIPPET--&gt;",
+            "enabled": false
+          },
+          {
+            "pages": [
+              "all"
+            ],
+            "location": "header",
+            "script": "&lt;!-- Hotjar Tracking Code for http://www.dummies.com --&gt;\r\n&lt;script&gt;\r\n    (function(h,o,t,j,a,r){\r\n        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\r\n        h._hjSettings={hjid:257151,hjsv:6};\r\n        a=o.getElementsByTagName('head')[0];\r\n        r=o.createElement('script');r.async=1;\r\n        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\r\n        a.appendChild(r);\r\n    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');\r\n&lt;/script&gt;",
+            "enabled": false
+          },
+          {
+            "pages": [
+              "article"
+            ],
+            "location": "header",
+            "script": "&lt;!-- //Connect Container: dummies --&gt; &lt;script src=\"//get.s-onetag.com/bffe21a1-6bb8-4928-9449-7beadb468dae/tag.min.js\" async defer&gt;&lt;/script&gt;",
+            "enabled": true
+          },
+          {
+            "pages": [
+              "homepage"
+            ],
+            "location": "header",
+            "script": "&lt;meta name=\"facebook-domain-verification\" content=\"irk8y0irxf718trg3uwwuexg6xpva0\" /&gt;",
+            "enabled": true
+          },
+          {
+            "pages": [
+              "homepage",
+              "article",
+              "category",
+              "search"
+            ],
+            "location": "footer",
+            "script": "&lt;!-- Facebook Pixel Code --&gt;\r\n&lt;noscript&gt;\r\n&lt;img height=\"1\" width=\"1\" src=\"https://www.facebook.com/tr?id=256338321977984&ev=PageView&noscript=1\"/&gt;\r\n&lt;/noscript&gt;\r\n&lt;!-- End Facebook Pixel Code --&gt;",
+            "enabled": true
+          }
+        ]
+      }
+    },
+    "pageScriptsLoadedStatus": "success"
+  },
+  "searchState": {
+    "searchList": [],
+    "searchStatus": "initial",
+    "relatedArticlesList": [],
+    "relatedArticlesStatus": "initial"
+  },
+  "routeState": {
+    "name": "BookCategory",
+    "path": "/category/books/academics-the-arts-33662/",
+    "hash": "",
+    "query": {},
+    "params": {
+      "category": "academics-the-arts-33662"
+    },
+    "fullPath": "/category/books/academics-the-arts-33662/",
+    "meta": {
+      "routeType": "category",
+      "breadcrumbInfo": {
+        "suffix": "Books",
+        "baseRoute": "/category/books"
+      },
+      "prerenderWithAsyncData": true
+    },
+    "from": {
+      "name": null,
+      "path": "/",
+      "hash": "",
+      "query": {},
+      "params": {},
+      "fullPath": "/",
+      "meta": {}
+    }
+  },
+  "sfmcState": {
+    "newsletterSignupStatus": "initial"
+  }
+}

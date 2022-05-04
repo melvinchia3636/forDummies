@@ -1,6 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import { Icon } from "@iconify/react";
-import Image from "next/image";
 import { JSDOM } from "jsdom";
 import Header from "../components/home/Header";
 import FeaturedCollections from "../components/home/Collections";

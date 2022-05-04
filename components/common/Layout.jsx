@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 
 function Layout({ children }) {
   return (
-    <div className="tracking-wide">
+    <div className="tracking-wide text-stone-800">
       <Navbar />
       {children}
       <Footer />

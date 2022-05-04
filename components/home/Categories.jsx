@@ -24,10 +24,10 @@ export default function Categories({ categories }) {
                 {e.description}
               </p>
               <div className="flex gap-4">
-                <button className="bg-yellow-400 rounded-md shadow-md text-stone-900 font-semibold px-16 py-4 mt-10 w-min whitespace-nowrap">
+                <button className="bg-yellow-400 rounded-md shadow-md font-semibold px-16 py-4 mt-10 w-min whitespace-nowrap">
                   View books
                 </button>
-                <button className="bg-yellow-400 rounded-md shadow-md text-stone-900 font-semibold px-16 py-4 mt-10 w-min whitespace-nowrap">
+                <button className="bg-yellow-400 rounded-md shadow-md font-semibold px-16 py-4 mt-10 w-min whitespace-nowrap">
                   View articles
                 </button>
               </div>
