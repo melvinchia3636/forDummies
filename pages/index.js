@@ -16,7 +16,6 @@ export async function getStaticProps() {
   const { document } = (new JSDOM(raw)).window;
 
   const rawData = document.querySelector("#state-object-element");
-  console.log(document.querySelector("h1"))
   const data = JSON.parse(rawData.innerHTML.replace(/&amp;/g, '&'));
   const { collections, categories } = data.homeState.home;
 
