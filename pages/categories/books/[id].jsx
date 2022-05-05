@@ -3,6 +3,7 @@ import { JSDOM } from "jsdom";
 import Header from "../../../components/categories/books/Header";
 import Categories from "../../../components/categories/books/Categories";
 import BookList from "../../../components/categories/books/BookList";
+import { useRouter } from "next/router";
 
 export async function getServerSideProps({ params }) {
     const { id } = params;
@@ -12,7 +13,7 @@ export async function getServerSideProps({ params }) {
     const data = JSON.parse(rawData.innerHTML.replace(/&amp;/g, '&'));
     const { categoryState: { relatedCategories }, listState } = data;
     const { data: { title, image, description, breadcrumbs, parentCategory, childCategories } } = relatedCategories;
-    const { list, page, sortField, filterData} = listState;
+    const { list, page, sortField, filterData } = listState;
 
     return {
         props: {
@@ -35,9 +36,11 @@ export async function getServerSideProps({ params }) {
 }
 
 export default function BookCategories({ header, list }) {
+    const { query: { id } } = useRouter();
+
     return <div >
         <Header header={header} />
         <Categories header={header} />
-        <BookList list={list} title={header.title} />
+        <BookList list={list} title={header.title} id={id.split('-').pop()} />
     </div>;
 }

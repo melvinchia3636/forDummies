@@ -1,34 +1,48 @@
+/* eslint-disable @next/next/no-img-element */
 import { Icon } from '@iconify/react';
 import React, { useEffect, useState } from 'react'
 import StickyBox from "react-sticky-box";
 import moment from "moment";
 
-function BookList({ title, list }) {
+function BookList({ title, list, id }) {
   const [filter, setFilter] = useState([]);
   const [bookList, setBookList] = useState(list.list)
+  const [firstTime, setFirstTime] = useState(true)
+  const [loading, setLoading] = useState(false)
 
   useEffect(() => {
-    if (filter.length) {
-      fetch("https://dummies-api.dummies.com/v2/categories/33512/categoryBooks?size=10&offset=0&sortField=time&sortOrder=1", {
-        method: "POST",
-        body: JSON.stringify({ "categoriesIds": filter, "articleTypes": [] }),
-        headers: {
-          'Content-Type': 'application/json',
-        }
-      }).then(res => res.json()).then(data => setBookList(data))
-    } else {
-      fetch("https://dummies-api.dummies.com/v2/categories/33512/categoryBooks?size=10&offset=0&sortField=time&sortOrder=1", {
-        method: "POST",
-        body: JSON.stringify({ "categoriesIds": [], "articleTypes": [] }),
-        headers: {
-          'Content-Type': 'application/json',
-        }
-      }).then(res => res.json()).then(data => setBookList(data))
+    if (!firstTime) {
+      if (filter.length) {
+        setLoading(true)
+        fetch(`https://dummies-api.dummies.com/v2/categories/${id}/categoryBooks?size=10&offset=0&sortField=time&sortOrder=1`, {
+          method: "POST",
+          body: JSON.stringify({ "categoriesIds": filter, "articleTypes": [] }),
+          headers: {
+            'Content-Type': 'application/json',
+          }
+        }).then(res => res.json()).then(data => {
+          setLoading(false);
+          setBookList(data);
+        })
+      } else {
+        setLoading(true)
+        fetch(`https://dummies-api.dummies.com/v2/categories/${id}/categoryBooks?size=10&offset=0&sortField=time&sortOrder=1`, {
+          method: "POST",
+          body: JSON.stringify({ "categoriesIds": [], "articleTypes": [] }),
+          headers: {
+            'Content-Type': 'application/json',
+          }
+        }).then(res => res.json()).then(data => {
+          setLoading(false);
+          setBookList(data)
+        })
+      }
     }
-  }, [filter]);
+    setFirstTime(false);
+  }, [filter, id]);
 
   return (
-    <div className="flex flex-col items-center mt-20 mx-20">
+    <div className="flex flex-col items-center my-20 mx-20">
       <h2 className="font-semibold text-4xl after:w-32 after:border-b-4 after:absolute after:-bottom-2 after:rounded-full after:left-1/2 after:border-yellow-400 relative after:-translate-x-1/2">
         {title} <span className="font-normal">Books</span>
       </h2>
@@ -36,9 +50,9 @@ function BookList({ title, list }) {
         <StickyBox offsetTop={120} offsetBottom={20}>
           <div className="p-2 pt-0 pb-6 mb-6 border-b-2 border-neutral-200 min-w-64">
             <h2 className="font-semibold text-2xl">Filtered Results</h2>
-            <div>{bookList.total} results</div>
+            <div>{bookList.total || 0} results</div>
           </div>
-          <div className="p-2">
+          {list.filterData.categoriesFilter && <div className="p-2">
             <h2 className="font-semibold text-2xl">Category Filter</h2>
             <div className="divide-y divide-neutral-200">
               {list.filterData.categoriesFilter.slice(1).map(e => (
@@ -57,12 +71,15 @@ function BookList({ title, list }) {
                 </div>
               ))}
             </div>
-          </div>
+          </div>}
         </StickyBox>
-        <div className="divide-y-2 divide-neutral-200 flex-1">
-          {bookList.items.map(({ data }) => (
-            <div key={data} className="w-full p-8 flex gap-6">
-              <img src={data.image.src} />
+        <div className="divide-y-2 divide-neutral-200 flex-1 relative">
+          {loading && <div className="absolute left-1/2 top-6 p-4 bg-stone-50 shadow-md !border-0 rounded-md">
+            <div className="loader"></div>
+          </div>}
+          {bookList.items?.map(({ data }) => (
+            <div key={data} className={`w-full p-8 flex gap-6 ${loading && "bg-stone-100"}`}>
+              <img src={data.image.src} alt="" />
               <div className="py-4">
                 <span className="text-yellow-400 font-medium text-lg">
                   {data.primaryCategory.title}
