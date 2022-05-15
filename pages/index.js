@@ -49,11 +49,9 @@ export async function getStaticProps() {
 export default function Home({ collections, categories, header }) {
   return (
     <div className="tracking-wide">
-      <Navbar />
       <Header header={header} />
       <FeaturedCollections collections={collections} />
       <Categories categories={categories} />
-      <Footer />
     </div>
   );
 }

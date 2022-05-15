@@ -79,8 +79,8 @@ function BookList({ title, list, id }) {
           </div>}
           {bookList.items?.map(({ data }) => (
             <div key={data} className={`w-full p-8 flex gap-6 ${loading && "bg-stone-100"}`}>
-              <img src={data.image.src} alt="" />
-              <div className="py-4">
+              <img src={data.image.src} alt="" className="w-44 h-full objectp-contain" />
+              <div>
                 <span className="text-yellow-400 font-medium text-lg">
                   {data.primaryCategory.title}
                 </span>
