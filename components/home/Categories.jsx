@@ -1,6 +1,8 @@
-/* eslint-disable @next/next/no-img-element */
-import { Icon } from "@iconify/react";
-import React from "react";
+/* eslint-disable react/prop-types */
+/* eslint-disable no-shadow */
+/* eslint-disable no-underscore-dangle */
+import { Icon } from '@iconify/react';
+import React from 'react';
 
 export default function Categories({ categories }) {
   return (
@@ -17,17 +19,17 @@ export default function Categories({ categories }) {
                 backgroundImage: `url('${e.image.src}')`,
               }}
             >
-              <h3 className="text-white w-1/2 text-5xl font-semibold leading-snug">
+              <h3 className="text-neutral-50 w-1/2 text-5xl font-semibold leading-snug">
                 {e.title}
               </h3>
-              <p className="text-white w-7/12 mt-6 leading-relaxed">
+              <p className="text-neutral-50 w-7/12 mt-6 leading-relaxed">
                 {e.description}
               </p>
               <div className="flex gap-4">
-                <button className="bg-yellow-400 rounded-md shadow-md font-semibold px-16 py-4 mt-10 w-min whitespace-nowrap">
+                <button type="button" className="bg-yellow-400 rounded-md shadow-md font-semibold px-16 py-4 mt-10 w-min whitespace-nowrap">
                   View books
                 </button>
-                <button className="bg-yellow-400 rounded-md shadow-md font-semibold px-16 py-4 mt-10 w-min whitespace-nowrap">
+                <button type="button" className="bg-yellow-400 rounded-md shadow-md font-semibold px-16 py-4 mt-10 w-min whitespace-nowrap">
                   View articles
                 </button>
               </div>
@@ -44,7 +46,7 @@ export default function Categories({ categories }) {
                       {e.category.title}
                     </span>
                     <h4 className="text-2xl font-medium mt-1">{e.title}</h4>
-                    <button className="flex items-center gap-1 text-lg mt-6 font-medium">
+                    <button type="button" className="flex items-center gap-1 text-lg mt-6 font-medium">
                       Explore book
                       <Icon
                         icon="uil:arrow-right"
@@ -85,4 +87,4 @@ export default function Categories({ categories }) {
       </div>
     </div>
   );
-};
+}

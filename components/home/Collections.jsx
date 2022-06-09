@@ -1,6 +1,7 @@
-import React from "react";
-import { Icon } from "@iconify/react";
-import Image from "next/image";
+/* eslint-disable react/prop-types */
+import React from 'react';
+import { Icon } from '@iconify/react';
+import Image from 'next/image';
 
 export default function FeaturedCollections({ collections }) {
   return (
@@ -12,7 +13,7 @@ export default function FeaturedCollections({ collections }) {
         {collections.map((e) => (
           <div
             key={e}
-            className="flex flex-col bg-white shadow-md rounded-md overflow-hidden"
+            className="flex flex-col bg-neutral-50 shadow-md rounded-md overflow-hidden"
           >
             <Image width="1024" height="550" alt="" src={e.image.src} />
             <div className="p-6 flex flex-col justify-between flex-1">
@@ -21,7 +22,7 @@ export default function FeaturedCollections({ collections }) {
                 <p className="text-gray-600 mt-4">{e.description}</p>
               </div>
               <div className="flex justify-end items-center">
-                <button className="flex items-center gap-1 text-xl mt-6 font-medium">
+                <button type="button" className="flex items-center gap-1 text-xl mt-6 font-medium">
                   Explore collection
                   <Icon
                     icon="uil:arrow-right"
@@ -35,4 +36,4 @@ export default function FeaturedCollections({ collections }) {
       </div>
     </div>
   );
-};
+}

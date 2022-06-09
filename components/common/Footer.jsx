@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Footer() {
   return (
@@ -13,7 +13,7 @@ function Footer() {
         <div className="px-2">Do Not Sell My Personal Info - CA Only</div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
