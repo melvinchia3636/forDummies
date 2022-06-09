@@ -35,12 +35,12 @@ function TopPagination({ currentPage, setCurrentPage, bookList }) {
             {' '}
             -
             {' '}
-            {Math.min(currentPage * 10 + 10, bookList.total)}
+            {Math.min(currentPage * 10 + 10, bookList.total) || 0}
           </span>
           {' '}
           of
           {' '}
-          {Math.ceil(bookList.total)}
+          {Math.ceil(bookList.total) || 0}
         </p>
         <button
           type="button"

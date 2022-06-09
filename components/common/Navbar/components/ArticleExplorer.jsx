@@ -1,8 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Icon } from '@iconify/react';
 import React, { useEffect, useRef, useState } from 'react';
-import Lottie from 'react-lottie';
-import loading from '../../../../assets/loading.json';
 
 export default function ArticleExplorer({
   currentLevel, setCurrentLevel, breadcrumbs, setBreadcrumbs, articlesExplorerOpen,
@@ -96,21 +94,8 @@ export default function ArticleExplorer({
       </div>
       {isLoading && (
         <div className="absolute h-[36rem] w-full bg-black bg-opacity-[1%] top-0 left-0">
-          <div className="bg-neutral-50 rounded-lg shadow-xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-            <Lottie
-              options={{
-                loop: true,
-                autoplay: true,
-                animationData: loading,
-                rendererSettings: {
-                  preserveAspectRatio: 'xMidYMid slice',
-                },
-              }}
-              height={80}
-              width={80}
-              isStopped={false}
-              isPaused={false}
-            />
+          <div className="absolute left-1/2 top-6 p-4 bg-stone-50 shadow-md !border-0 rounded-md">
+            <div className="loader" />
           </div>
         </div>
       )}

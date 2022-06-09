@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { JSDOM } from 'jsdom';
 import React from 'react';
+import Head from 'next/head';
 import Header from '../components/home/Header';
 import FeaturedCollections from '../components/home/Collections';
 import Categories from '../components/home/Categories';
@@ -48,6 +49,9 @@ export async function getStaticProps() {
 export default function Home({ collections, categories, header }) {
   return (
     <div className="tracking-wide">
+      <Head>
+        <title>dummies - Learning Made Easy</title>
+      </Head>
       <Header header={header} />
       <FeaturedCollections collections={collections} />
       <Categories categories={categories} />
